@@ -1,5 +1,12 @@
 # flutterconsoleempty
 
+File encryption using XChacha20Poly1305 from flutter_sodium package
+
+As the encryption and decryption run in chunks you can run the app
+
+with very large files
+
+
 ```plaintext
 convert: ^3.0.1
 path_provider: ^2.0.7
